@@ -1,0 +1,25 @@
+@import url("typografy.css");
+
+:root {
+  --fs-small: 14px;
+  --fs-big: 80px;
+
+  --fw-bold: 700;
+  --fw-regular: 400;
+
+  --ff: 'Inter', sans-serif;
+
+  --text-color: #fff;
+  --component-color: #bbb;
+}
+
+
+::-webkit-scrollbar {
+  display: none;
+}
+body {
+  margin: 0;
+  font-family: var(--ff);
+  box-sizing: border-box;
+
+}

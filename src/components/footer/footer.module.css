@@ -1,0 +1,14 @@
+.footer {
+    display: flex;
+    margin: 0 20px;
+    padding: 20px 10px;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+}
+
+.text {
+    border-bottom: 1px solid var(--component-color);
+    padding-bottom: -1px;
+    font-size: var(--fs-small);
+}

@@ -1,0 +1,43 @@
+.btn {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 40px;
+    background-color: inherit;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #BBBBBB;
+    display: inline-block;
+    margin: 0px 5px;
+    transition: background-color 0.3s ease;
+    color: inherit;
+    transition: 1s;
+}
+.btn:hover { 
+    background-color: black;
+    border-color: #000000;
+    color: white;
+    transition: 1s;
+}
+.btn:focus { 
+    background-color: black;
+    border-color: #000000;
+    color: white;
+}
+.page_number{
+    align-items: flex-end;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.ellipsis{
+    color: #BBBBBB;
+    text-align: center;
+    width: 40px;
+    margin: 5px;
+}
+  
